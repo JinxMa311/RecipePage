@@ -1,26 +1,86 @@
+/*
+Herein Lies The Logic For My Website!
+*/
+
+/*Border Box Logic*/
 .box {
     border: 10px solid #3333;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #fff7, #0000);
+}
+/*Glass-Card Logic For Transparent Background*/
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    max-width: 1000px;
+    color: #ffffff76;
+}
+/*Glass-Card Text Override Logic For Legibility*/
+h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.555);
+    margin-bottom: 15px;
+    color:rgba(0, 0, 0, 0.5)
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.536);
+    margin-bottom: 15px;
+    color:rgba(0, 0, 0, 0.5)
+}
+ p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.535);
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color:rgba(0, 0, 0, 0.5)
+}
+li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.538);
+    margin-bottom: 15px;
+    color:rgba(0, 0, 0, 0.5)
+}
+/*Background/Gradient Logic*/
 .gradient-box {
-    background-image: linear-gradient(to right, #fff7, #0000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(111deg, #a5ff5c 0%, #f64d4d 100%);
+    padding: 0px;
 }
-
+/*Image Logic*/
 .image-container {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-
+/*Image Container Logic, For Background*/
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
+/*Centering Text Logic*/
 .center-text-horizontal {
     text-align: center;
+}
+/*Clean List Items, Removing BulletPoints/Numbers*/
+.clean-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
