@@ -1,0 +1,26 @@
+.box {
+    border: 10px solid #3333;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #fff7, #0000);
+}
+
+.gradient-box {
+    background-image: linear-gradient(to right, #fff7, #0000);
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center-text-horizontal {
+    text-align: center;
+}
