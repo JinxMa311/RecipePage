@@ -1,6 +1,11 @@
 /*
 Herein Lies The Logic For My Website!
 */
+/*Checked List Item Strikethru Property*/
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}
 /*Clean List Items, Removing BulletPoints/Numbers*/
 .clean-list {
     list-style-type: none;
