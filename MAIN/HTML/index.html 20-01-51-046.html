@@ -21,6 +21,56 @@
         <div class="glass-card h1">
         <div class="glass-card h2">
         <div class="glass-card p">
+        <!--DIV FOR NAVBAR/DROPDOWN MENU STUFF-->
+        <div class="container-fluid">
+            <nav class="navbar sticky-top navbar-expand-xl navbar-dark bg-dark">
+                <!--BRAND/TITLE SECTION FOR MAIN BUTTON-->
+                <a class="navbar-brand" href="#">Looking For More? Click Here: ➡️ </a>
+                <!--NAVBAR BUTTON OBJECT-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--NAVBAR LOGIC SECTION-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <!--NAVBAR HOME SECTION-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!--NAVBAR LINK SECTION-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <!--DROPDOWN MENU MAIN SECTION-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!--DROPDOWN MENU ITEM 1-->
+                            <a class="dropdown-item" href="#">Action</a>
+                            <!--DROPDOWN MENU ITEM 2-->
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <!--DROPDOWN MENU DIVIDER-->
+                            <div class="dropdown-divider"></div>
+                            <!--DROPDOWN MENU ITEM 3-->
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <!--NAVBAR DISABLED ITEM-->
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled, Please Try Again Later >_> </a>
+                    </li>
+                    </ul>
+                    <!--DROPDOWN MENU SEARCHBAR-->
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                </nav>
+            </div>
+        <!--HEADER SEGMENT-->
         <header>
             <!--TITLE, AUTHOR SEGMENT-->
             <div>
