@@ -1,8 +1,6 @@
 //DECLARING FUNCTION INGREDIENTS, SELECTING ALL FROM 'recipe-ingredients' class
 const ingredients = document.querySelectorAll('#recipe-ingredients');
-ingredients.forEach((li, index) => {
-    const ingredientText = li.textContent;
-    li.textContent = '';
+ingredients.forEach((li) => {
 //CREATING CHECKBOXES FOR EACH INDEX OF INGREDIENTS LIST
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -15,10 +13,11 @@ ingredients.forEach((li, index) => {
     li.appendChild(checkbox);
     li.appendChild(label);
 });
+//CREATING EVENT LISTENER FOR CLICK EVENTS
 ingredients.addEventListener('change', (event) => {
     if (event.target.type === 'checkbox') {
-        label.classList.add('checked');
+        label.class = 'checked';
     } else {
-        label.classList.remove('checked');
+        label.class = 'unchecked';
     }
 });
