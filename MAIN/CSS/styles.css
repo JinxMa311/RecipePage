@@ -38,7 +38,7 @@ li {
 }
 /* BELOW ARE THE CLASS-SPECIFIC SELECTORS. */
 /* Checked List Item Strikethru Property */
-.checked {
+.strikethrough {
     text-decoration: line-through;
     color: #888;
 }

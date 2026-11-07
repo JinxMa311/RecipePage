@@ -14,10 +14,13 @@ ingredients.forEach((li) => {
     li.appendChild(label);
 });
 //CREATING EVENT LISTENER FOR CLICK EVENTS
-ingredients.addEventListener('change', (event) => {
-    if (event.target.type === 'checkbox') {
-        label.class = 'checked';
-    } else {
-        label.class = 'unchecked';
-    }
+//ingredients.addEventListener('change', (event) => {
+//    if (event.target.type === 'checkbox') {
+//        label.class = 'checked';
+//    } else {
+//        label.class = 'unchecked';
+//    }
+//});
+checkbox.addEventListener("change", function () {
+    checkbox.label.classList.toggle("strikethrough", this.checked);
 });
