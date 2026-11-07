@@ -38,7 +38,7 @@ li {
 }
 /* BELOW ARE THE CLASS-SPECIFIC SELECTORS. */
 /* Checked List Item Strikethru Property */
-.strikethrough {
+.checked {
     text-decoration: line-through;
     color: #888;
 }
@@ -108,18 +108,18 @@ li {
 /* FOR SMALL DEVICES/SCREENS */
 @media (max-width: 600px) and (min-width:300px) {
     #main-content {
-        background-color:#f64d4d
+        background-color:#00fce3
     }
 }
 /* FOR MEDIUM DEVICES/SCREENS */
 @media (max-width: 1024px) and (min-width: 601px) {
     #main-content {
-        background-color:#a5ff5c
+        background-color:#ff00f7
     }
 }
 /* FOR LARGE DEVICES/SCREENS */
 @media (max-width: 2024px) and (min-width: 1025px) {
     #main-content {
-        background-color:aqua
+        background-color: #ff5100;
     }
 }
